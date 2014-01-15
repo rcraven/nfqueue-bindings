@@ -16,10 +16,12 @@ SET(PERL_POSSIBLE_INCLUDE_PATHS
   /usr/lib/perl/5.10/CORE
   /usr/lib/perl/5.12/CORE
   /usr/lib/perl/5.14/CORE
+  /usr/lib/perl5/CORE
   )
 
 SET(PERL_POSSIBLE_LIB_PATHS
   /usr/lib
+  /usr/lib/perl5/CORE
   )
 
 FIND_PATH(PERL_INCLUDE_PATH perl.h
